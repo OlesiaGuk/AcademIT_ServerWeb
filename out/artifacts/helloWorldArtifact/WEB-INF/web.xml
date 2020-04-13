@@ -6,19 +6,15 @@
          version="4.0"
          metadata-complete="true">
 
-<display-name>HelloWorld on Servlets</display-name>
+    <display-name>HelloWorld on Servlets</display-name>
 
-<servlet>
-    <servlet-name>HelloWorldServlet</servlet-name>
-    <servlet-class>ru.serverweb.HelloWorldServlet</servlet-class>
-</servlet>
-    
+    <servlet>
+        <servlet-name>helloWorldServlet</servlet-name>
+        <servlet-class>ru.serverweb.HelloWorldServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
-        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-name>helloWorldServlet</servlet-name>
         <url-pattern>/helloWorld</url-pattern>
     </servlet-mapping>
-    
-    <welcome-file-list>
-        <welcome-file></welcome-file>
-    </welcome-file-list>
 </web-app>
